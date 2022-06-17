@@ -1,4 +1,12 @@
-import { Facebook, Instagram, Pinterest, Room, Twitter, Phone, MailOutline } from "@mui/icons-material";
+import {
+  Facebook,
+  Instagram,
+  MailOutline,
+  Phone,
+  Pinterest,
+  Room,
+  Twitter,
+} from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -80,7 +88,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>ALANS</Logo>
+        <Logo>ALAN.</Logo>
         <Desc>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -119,7 +127,7 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 3268 W ARCHER AVE, CHICAGO IL
+          <Room style={{marginRight:"10px"}}/> 2242 S Haslted Chicago IL
         </ContactItem>
         <ContactItem>
           <Phone style={{marginRight:"10px"}}/> +1 234 56 78
